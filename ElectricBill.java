@@ -7,7 +7,7 @@ class ElectricBill
     public void accept()throws IOException
     {
     BufferedReader y= new BufferedReader(new InputStreamReader(System.in));
-    System.out.println("Input name of the customer");
+    System.out.println("Input name of Here the customer");
     n=y.readLine();
     System.out.println("Input number of units consumed");
     units=Integer.parseInt(y.readLine());
